@@ -1,0 +1,44 @@
+# This file is in YAML format.  You must ensure that the punctuation
+# and whitespace is preserved.  Do NOT use Windows Notepad to edit this
+# file; use a real programming editor like Notepad++ instead.
+
+# Write your group name exactly as it appears on Canvas.
+group: a_group19
+
+# Write the names of your group members as a comma-separated list
+# within the square brackets.
+members: [Adeyinka Adebiyi, Fortune Ezinne Chidiebere, Chukwudubembi Oriahi, Thankgod Chukwuebuka Ezugwu, Kelechi  Konyebagu]
+
+# Write your general topic.  
+topic: SocialMediaPlatform
+
+# Write your research question, following one of the three allowed templates.
+# Be sure your question is all on one line.
+RQ:  Is there a difference in mean of the percentage of people influenced by different social media platforms (Twitter, Instagram, Facebook, Snapchat) for online shopping?
+
+# Write your independent and dependent variables.  These should be the
+# column names where these variables are found in your dataset's CSV
+# file.
+independent-var: Social media platforms (Twitter, Instagram, Facebook, Snapchat) 
+dependent-var: percentage of online users 
+
+# Write the null hypothesis for your research question, again ensuring it is all on one line.
+null-hypothesis: There is no difference in mean of the percentage of people influenced by different social media platforms (Twitter, Instagram, Facebook, Snapchat) for online shopping.
+
+# Write the alternative hypothesis for your research question, again ensuring it is all on one line.
+alt-hypothesis: The is a difference in mean of the percentage of people influenced by different social media platforms (Twitter, Instagram, Facebook, Snapchat) for online shopping.
+
+# Write the dataset URL.  Be sure it has the allowed hostname.
+dataset-url: https://data.world/ahalps/social-influence-on-shopping
+
+# Paste the output of loading your dataset into R, and executing the
+# colnames() function, into the space below the `columns: |` line.
+# Put two spaces *before* every line you pasted.
+
+columns: |
+  > d <- read.csv("WhatsgoodlyData.csv")
+  > colnames(d)
+  [1] "Question"            "Segment.Type"        "Segment.Description"
+  [4] "Answer"              "Count"               "Percentage"  
+
+
